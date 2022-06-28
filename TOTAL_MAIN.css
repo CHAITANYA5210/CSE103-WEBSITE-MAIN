@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    .pakkatext{
+      padding-left: 200px;
+      padding-right: 175px;
+    }
+    
+    #abc{
+    width:100%;
+    height: 100vh;
+}
+                                                                         /*NAVIGATION BAR*/
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #0009;
+    line-height: 30px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li:hover{
+    color: white;
+    background-image:linear-gradient(90deg, red, blue);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+                                                                          /*PAGE1*/
+.page1{
+      background-image: url(pexels-felix-mittermeier-956981.jpg);
+      background-size: 100%;
+      text-align: center;
+      background-repeat: no-repeat;}
+
+  .main_heading{
+      font-weight: 700;
+      font-family: Helvetica;
+      animation: top;
+      color: #fff;
+  }
+  #heading1{
+      font-size: 40px;
+      padding-right: 900;
+
+  }
+  #heading2{
+      font-size: 70px;
+      padding-right: 670;
+
+  }
+  #heading3{
+      font-size: 100px;
+      padding-right: 410;
+
+  }
+  .img1{
+      padding-top: 100px;
+      padding-right: 100px;
+      border-radius: 50%; width: 300px;
+      
+  }
+  .pakkatext{
+    padding-left: 200px;
+    padding-right: 175px;
+  }
+                                                                        /*PAGE2(CARDS)*/
+  .page2{ width: 100vw;
+       height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       overflow:hidden;
+    } 
+
+   .card{
+       display:grid;
+       grid-template-columns: 300px ;
+       grid-template-rows: 210px 210px 80px;
+       grid-template-areas: "image" "text" "stats" ;
+       font-family: roboto;
+       border-radius: 18px;
+       background-color:whitesmoke ;
+       box-shadow: 5px 5px 15px black;
+       text-align: center;
+    }
+
+    .card-text.date{
+       color:red
+    }
+
+    .card-text p{
+       color:grey;
+       font-size: 15px;
+       font-weight: 300;
+    }
+
+    .card-text h2 {
+       margin-top: 0px;
+       font-size: 28px;
+    }
+
+    .card-image1{grid-area: image;
+        background-image: url("person.jpg");
+        border-top-left-radius:15px ;
+        border-top-right-radius: 15px;
+        background-size: cover;
+    }
+
+    .card-image2{grid-area: image;
+        background-image: url("project.jpg");
+        border-top-left-radius:15px ;
+        border-top-right-radius: 15px;
+        background-size: cover;
+    }
+
+    .card-image3{grid-area: image;
+        background-image: url("research1.jpg");
+        border-top-left-radius:15px ;
+        border-top-right-radius: 15px;
+        background-size: cover;
+    }
+
+    .button{
+        width: 100px;
+        height: 40px;
+        border: none;
+        background-color: rgb(202, 230, 230);
+        border-radius: 15px;
+    }
+
+    .button:hover {
+        color: white;
+        background-image:linear-gradient(90deg, red, blue);
+    }
+
+    .card-text{grid-area: text;
+        margin:25px;
+    }
+
+                                                                      /*PAGE3(VIDEO)*/
+
+    .v{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        overflow:hidden;
+    }
+
+    .footer {
+        position: fixed ;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #ffffff00;
+        color: #ffffff00;
+        text-align: center;
+    }
+
+    .footer:hover {
+        background-color: white;
+        color: black;   
+    }  

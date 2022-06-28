@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+.pakkatext{
+  padding-left: 200px;
+  padding-right: 175px;
+}.section1{
+background-image: url('BACKMEN.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+}
+*{
+  margin-left: 0;
+  margin-right: 0;
+font-family: Helvetica;}
+
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #0009;
+    line-height: 30px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+nav ul li:hover{
+    background-color: #f9004d
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.heading
+{
+  color: white;
+  font-family: Helvetica;
+  padding-top: 80px;
+  padding-right: 500px;
+
+}
+.heading1{
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding-right:250px;
+}
+.heading2{
+  font-size: 85px;
+}
+.heading3{
+  font-size: 20px;
+  padding-right:125px;
+  padding-right: 125px;
+}
+.button1{
+  background-color: #f9004d;
+  color: white;
+
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius:25px;
+}
+.button2{
+  padding-right: 300px;
+}
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+.section2{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.web2{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 25px;
+}
+.tomimage{
+  height: 450px;
+  padding-left: 100px;
+
+}
+.aboutme
+{
+  font-size: 80px;
+}
+.Engineering{
+  font-size: 25px;
+  }
+.Devoloper{
+  font-size: 25px;
+  color:#f9004d;
+}
+.button123{
+  background-color: #f9004d;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius:25px
+
+}
+.button123:hover{
+  background-color: white;
+  color: black;
+}
+.buttonsquare{
+  padding-left: 0px;
+}
+h2
+{
+  color: white;
+  font-size: 18px;
+}
+
+.section3{
+  background-color: black;
+}
+.section3:hover{
+  background-color: white;
+  transition: .9s;
+}
+
+.page2{ width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     overflow:hidden;
+  }
+
+ .card{
+     display:grid;
+     grid-template-columns: 300px ;
+     grid-template-rows: 210px 210px 80px;
+     grid-template-areas: "image" "text" "stats" ;
+     font-family: roboto;
+     border-radius: 18px;
+     background-color:whitesmoke ;
+     box-shadow: 5px 5px 15px black;
+     text-align: center;
+  }
+
+.names{
+  color: black;
+}
+
+  .card-text p{
+     color:grey;
+     font-size: 15px;
+     font-weight: 300;
+  }
+
+  .card-text h2 {
+     margin-top: 0px;
+     font-size: 28px;
+  }
+
+  .card-image1{grid-area: image;
+      background-image: url("tommain.jpg");
+      border-top-left-radius:15px ;
+      border-top-right-radius: 15px;
+      background-size: cover;
+  }
+
+  .card-image2{grid-area: image;
+      background-image: url("projectsmain.jpg");
+      border-top-left-radius:15px ;
+      border-top-right-radius: 15px;
+      background-size: cover;
+  }
+
+  .card-image3{grid-area: image;
+      background-image: url("reasearchmain.jpg.jpg");
+      border-top-left-radius:15px ;
+      border-top-right-radius: 15px;
+      background-size: cover;
+  }
+
+  .button{
+    color: white;
+      width: 100px;
+      height: 40px;
+      border: none;
+      background-color: #f9004d;
+      border-radius: 25px;
+      font-size:17px;
+  }
+  .button:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+
+  .card-text{grid-area: text;
+      margin:25px;
+  }
+  #Research{
+    width: 200px;
+
+  }
+
+  .v{
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(0, 0, 0);
+      overflow:hidden;
+      padding-left: 100px;
+  }
+  #web4{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 25px;
+  }
+  html{
+    scroll-behavior: smooth;
+}

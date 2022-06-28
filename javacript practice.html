@@ -1,0 +1,29 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form name="myform" >
+            <input id="pandu">
+            <input type="submit" onclick="validate()">
+            <p id="pandugadu">result</p>
+        </form>
+        <script>
+            function validate()
+            {
+                var a,text;
+                 a=document.getElementById("pandu").value;
+                if(a>10)
+                {
+                    text="input type invalid";
+                }
+                else{
+                    text="..................";
+                }
+                document.getElementById('pandugadu').innerHTML=text;
+    
+            }
+        </script>
+    </body>
+</html>
+

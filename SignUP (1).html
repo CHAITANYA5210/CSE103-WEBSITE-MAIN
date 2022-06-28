@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Sign up</title>
+                           </head>
+    <style>  
+        body{
+          background-image: linear-gradient(90deg, red, blue);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 100px;
+          padding-bottom: 100px;
+        }
+          
+            label{
+              width: 100px;
+              display: inline-block;
+            }
+            .box1{
+              background-color: rgb(255, 255, 255);
+              border-radius: 25px;
+              width: 700px;
+            }
+            .box2{
+              background-color: rgb(255, 255, 255);
+              border-radius: 25px;
+              width: 700px;
+            }
+            .box3{
+              background-color: rgb(255, 255, 255);
+              border-radius: 25px;
+              width: 700px;
+            }
+              
+            input[type=text], input[type=password] { 
+              width: 30%;  
+              padding: 15px;  
+              margin: 5px 0 22px 0;  
+              display: inline-block;  
+              border: none;  
+              background-color: rgb(202, 230, 230);  
+            }   
+            .button{
+              width: 100px;
+              height: 40px;
+              border: none;
+              background-color: rgb(202, 230, 230);
+              border-radius: 15px;
+              
+            }
+            .button:hover {
+              color: white;
+              background-image:linear-gradient(90deg, red, blue);}
+    
+      pre{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }          
+ </style>
+ <body align="cener"> 
+   <div class="main_container">
+  <div id="abc"></div>
+  <center>
+    <br><br>
+    <form><div class="container"> 
+<div class="box1">   
+  <br/>   
+        <h4>Enter your personal Details</h4>
+        
+      <pre>Enter Your Name <input type="text" name="username" placeholder="First name"> <input type="text" name="textfield" placeholder="Last name" /></pre>
+         <br/>
+        <div><textarea name="textarea" cols="50" rows="5" width: 100% placeholder="Enter Your Permanent Address"></textarea></div>
+        <br/>
+       <div align="left" style="padding-left: 55px;"><pre>Date Of Birth      <input type="date"  id = "date" /></pre></div>
+       <div align="left" style="padding-left: 55px;"><pre>Gender             <input type="radio" id="gender" name="gender" placeholder="male">male<input type="radio" id="gender" name="gender" value="female">female</pre></div>
+        <div align="left" style="padding-left: 55px;"><pre>Your Email Please   <input type="email" name="email" ></pre></div>
+       <div align="left" style="padding-left: 55px;"><pre>altermate email     <input type="email" name="email"></pre></div>
+        <div align="left" style="padding-left: 55px;"><pre>Telephone Number   <input type="text" name="telnumber" placeholder="including std code"></pre></div>
+        <div align="left" style="padding-left: 55px;"><PRE>Mobile Number      <input type="text" name="mobilenumber" placeholder="+91"></PRE></div>
+<br/></div> <br/>              
+ <div class="box2">
+
+   
+             <div><br/><h4>Parents Details</h4></div>
+
+            <div><pre>Father Name  <input type="text" name="username" placeholder="First name"> <input type="text" name="textfield" placeholder="Last name" /></pre></div>
+          <div align="left" style="padding-left: 55px;"><PRE>Mobile Number  </label><input type="text" name="mobilenumber" placeholder="+91"></PRE></div>
+            <div align="left" style="padding-left: 55px;"><pre>Occupation     <SELECT NAME="occupation" class="custom select" id="occupation" >
+                <option>none</option> <option>bussiness</option>
+                <option>agriculture</option>
+                <option>doctor</option>
+                <option>daily wage labour</option>
+                <option>software engineer</option>
+                <option>government employee</option>
+                <option>teacher/professor</option>
+                
+            </SELECT></pre></div>
+           <div align="left" style="padding-left: 55px;"><pre>Mother Name    <input type="text" name="username" placeholder="First name"> <input type="text" name="textfield" placeholder="Last name" /></pre></div>
+           <div align="left" style="padding-left: 55px;">Mobile Number  </label><input type="text" name="mobilenumber" vplaceholder="+91"></div>
+            <div align="left" style="padding-left: 55px;"><pre>Occupation     <SELECT NAME="occupation" class="custom select" id="occupation">
+                <option>none</option><option>bussiness</option>
+                <option>agriculture</option>
+                <option>doctor</option>
+                <option>daily wage labour</option>
+                <option>software engineer</option>
+                <option>government employee</option>
+                <option>teacher/professor</option>
+                <option>tailor</option>
+            </SELECT></pre></div>
+            <br/>
+</div> 
+<br/>
+<div class="box3">
+
+
+  <div><br/><h4>Educational Details</h4></div>
+               
+               <div align="left" style="padding-left: 55px;"><pre>Marks Scored In Class X   <input type="text" name="username"></pre></div>
+              
+              <div align="left" style="padding-left: 55px;"><pre>Institution Studied       <input type="text" name="username"></pre></div>
+              <div><br>attach class X marklist
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile"></div><br/>
+              <div align="left" style="padding-left: 55px;"><pre>Marks In Intermediate     <input type="text" name="username"> </pre></div>
+            <div align="left" style="padding-left: 55px;"><pre>Institution studied       </label><input type="text" name="username"></pre> </div>
+            <div>attach intermediate marklist
+               Select a file:
+               <input type="file" id="myfile" name="myfile"></div><br>
+               <div align="left" style="padding-left: 55px;"><pre>GPA In B.tech             <input type="text" name="username"></pre></div>
+              <div align="left" style="padding-left: 55px;"><pre>Institution Studied       </label><input type="text" name="username"></pre></div>
+            
+            <div>attach marklist of B.tech 
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile"></div>
+                    <br/>
+            
+            
+            <div align="left" style="padding-left: 55px;"><pre>Currently Working In      <input type="text" name="username" placeholder="name of company"></pre></div>
+            <div align="left" style="padding-left: 55px;">years of experience in current company
+            <input type="radio" id="experience" name="experience" value="less than 3 years">less than 3 years
+            <input type="radio" id="experience" name="experience" value="more than 3 years">
+            > 3 years</div>
+            <br/>
+            <div align="left" style="padding-left: 55px;"><pre>years of experience                 <input type="radio" id="exp" name="exp" value="less than 5 years"> less than 5 years<input type="radio" id="exp" name="exp" value="more than 5 years"> > 5 years</pre></div>
+<br><div align="center" style="padding-left: 55px;"> your photograph
+<input type="file" id="myfile" name="myfile"></div><br>
+<div align="cener" style="padding-left: 55px;">your signature
+<input type="file" id="myfile" name="myfile"></div>
+<br/>
+<br/>
+
+<a href="signin_main.html"><input type="button" name="Submit" value="Submit" class="button" ></a>
+            <input type="reset" name="Submit2" value="Reset" class="button">
+          <input type="button" name="Submit3" value="submit query" class="button">
+          <br/>
+          <br/>
+        
+    </form></center>
+  </div> 
+   </body></html>
